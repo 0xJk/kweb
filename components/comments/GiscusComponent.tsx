@@ -8,10 +8,10 @@ type GiscusComponentProps = {
 const GiscusComponent: FC<GiscusComponentProps> = ({ theme }) => {
     return (
         <Giscus
-            repo="MannyCooper/giscus-discussions"
-            repoId="R_kgDOGtIyjw"
-            category="Comments"
-            categoryId="DIC_kwDOGtIyj84CAxTy"
+            repo="0xJk/kweb"
+            repoId="R_kgDOKTv62g"
+            category="General"
+            categoryId="DIC_kwDOKTv62s4CZU48"
             mapping="pathname"
             reactionsEnabled="1"
             emitMetadata="0"
