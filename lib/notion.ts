@@ -2,7 +2,7 @@ import { Client } from '@notionhq/client'
 import { Post } from './types'
 
 const notion = new Client({ auth: process.env.NOTION_KEY })
-const databaseId = process.env.NOTION_DATABASE_ID || 'a20f6ca971284b91944e5d111ab394a9'
+const databaseId = process.env.NOTION_DATABASE_ID || '10fad4a7e41743869e7a7e84775a3ee3'
 
 // export const getBasicDBInfo = async () => {
 //     const dbQuery: any = {
